@@ -17,3 +17,11 @@ const sayName = () => {
   console.log(player.surname);
 };
 sayName();
+
+////////////////// LES FONCTIONS /////////////////////////////////
+
+const sayMyName = (name) => {
+  console.log(`Bonjour ${name}`);
+};
+
+sayMyName();

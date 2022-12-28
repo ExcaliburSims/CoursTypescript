@@ -58,3 +58,19 @@ const simeon: Nom = {
   nom: "zilu",
   prenom: "simeon",
 };
+
+////////////////// LES FONCTIONS /////////////////////////////////
+
+const sayMyName = (name: string) => {
+  console.log(`Bonjour ${name}`);
+};
+
+sayMyName("sims");
+
+const ageDuCapitaine = (age: number, size?: number | string) => {
+  if (size) {
+    console.log(`le capitaine mesure ${size}cm et a ${age} ans`);
+  } else {
+    console.log(`le capitaine a ${age} ans`);
+  }
+};
