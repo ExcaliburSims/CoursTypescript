@@ -74,3 +74,25 @@ const ageDuCapitaine = (age: number, size?: number | string) => {
     console.log(`le capitaine a ${age} ans`);
   }
 };
+
+////////////////// LES ENUMS ET TUPPLES /////////////////////////////////
+enum Role {
+  ADMIN,
+  PREMIUM,
+  BASIC,
+}
+
+interface User {
+  name: string;
+  attributes: [number, string];
+  role: Role;
+}
+
+const user1: User = {
+  name: "Siméon",
+  attributes: [42, "author"],
+  role: Role.ADMIN,
+};
+if (user1.role === Role.ADMIN) {
+  console.log("Connexion spéciale");
+}
