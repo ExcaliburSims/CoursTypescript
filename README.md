@@ -1,7 +1,8 @@
 # CoursTypescript #
 <br/>
-## Basic of typeScript
+## Basic of typeScript ##
 <br/>
+### Survol des bases ###
 ## Les étapes poursuivies sont
 <ul>
 <ol>les variables</ol>
