@@ -18,3 +18,43 @@ tab.push(2);
 tab.push("sim");
 //tab.push(false);
 console.log(arr);
+
+////////////////// LES OBJETS /////////////////////////////////
+
+/* let players = {
+  id: 0,
+  name: "Zidane",
+};
+
+console.log(players);
+
+const sayName = () => {
+  console.log(players.surname);
+};
+sayName(); */
+
+//create interface pour la declaration dans un objet
+
+interface Player {
+  id: number;
+  name: string;
+  jersey: number;
+}
+
+let zidane: Player = {
+  id: 1,
+  name: "zidane",
+  jersey: 10,
+};
+//if it not required with use a question mark(?)
+
+interface Nom {
+  nom: string;
+  prenom: string;
+  sexe?: string;
+}
+
+const simeon: Nom = {
+  nom: "zilu",
+  prenom: "simeon",
+};
