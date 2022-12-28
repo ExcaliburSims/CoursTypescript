@@ -12,3 +12,9 @@ let num2: number;
 let numOrString: number | string;
 
 ////////////////// LES TABLEAUX /////////////////////////////////
+let arr = ["chien", "chat", "chevre"];
+let tab: (number | string)[] = [];
+tab.push(2);
+tab.push("sim");
+//tab.push(false);
+console.log(arr);
