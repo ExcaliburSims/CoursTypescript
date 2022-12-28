@@ -1,23 +1,21 @@
 # CoursTypescript #
 <br/>
-## Basic of typeScript ##
+## Basic of typeScript
 <br/>
-### Survol des bases ###
+####### Survol des bases
 ## Les étapes poursuivies sont
-<ul>
-<ol>les variables</ol>
-<ol>les tableaux</ol>
-<ol>les objets</ol>
-<ol>les fonctions</ol>
-<ol>et les unions, les Enums et les tupples</ol>
-</ul>
-<br/>
+
+1. les variables
+2. les tableaux
+3. les objets
+4. les fonctions
+5. et les unions, les Enums et les tupples
+
 <br/>
 ## Quelques commandes importantes
 <br/>
-### tsc --init 
+*tsc --init* 
 pour initialiser TS dans le projet
-### tsc --w 
+*tsc --w* 
 pour la compilation automatique 
-
-### tsc index.ts
+*tsc index.ts*
